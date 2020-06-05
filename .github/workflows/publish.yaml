@@ -13,6 +13,6 @@ jobs:
       with:
         node-version: 12
 
-    - run: echo "@ldx:registry=https://npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
+    - run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > ~/.npmrc
 
     - run: npm publish
