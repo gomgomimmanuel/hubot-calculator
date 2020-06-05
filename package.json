@@ -1,5 +1,5 @@
 {
-  "name": "hubot-calculator",
+  "name": "@ldx/hubot-calculator",
   "description": "Hubot script for basic calculator functionality",
   "version": "0.4.0",
   "author": "Christopher Porter <chris@pulseenergy.com>",
@@ -10,10 +10,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/hubot-scripts/hubot-calculator"
+    "url": "https://github.com/ldx/hubot-calculator"
   },
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-calculator/issues"
+    "url": "https://github.com/ldx/hubot-calculator/issues"
   },
   "dependencies": {
     "coffee-script": "~1.6",
